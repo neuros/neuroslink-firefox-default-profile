@@ -1,0 +1,6 @@
+#!/bin/sh
+
+if [ -e /home/neurostv/.mozilla ]; then
+	chown neurostv.neurostv -R /home/neurostv/.mozilla
+fi
+

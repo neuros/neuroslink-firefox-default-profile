@@ -1,0 +1,19 @@
+Source: firefox-default-profile
+Section: internet
+Priority: optional
+Maintainer: Tom Bruno <tbruno@neurostechnology.com>
+Build-Depends: debhelper (>= 5.0.0), cdbs
+Standards-Version: 3.7.3
+
+Package: firefox-default-profile
+Architecture: i386
+Depends: firefox
+Recommends:
+Description: default settings for Neuros Link's Firefox 
+ Various preconfigured items for Neuros Link Firefox.
+ This package will:
+  * Set Firefox to open as fullscreen
+  * Set Firefox default url to http://app.neuros.tv
+  * Set better performance options in Firefox config
+  * Install fullscreen firefox extension
+
