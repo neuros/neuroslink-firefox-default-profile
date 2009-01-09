@@ -2,30 +2,17 @@
 <RDF:RDF xmlns:NS1="http://www.mozilla.org/2004/em-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Description RDF:about="rdf:#$tUPZT"
-                   NS1:id="toolkit@mozilla.org"
-                   NS1:minVersion="1.9"
-                   NS1:maxVersion="1.9.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"
-                   NS1:installLocation="gre-global"
-                   NS1:version="3.0.3"
-                   NS1:internalName="classic/1.0"
-                   NS1:locked="true"
-                   NS1:appManaged="true"
-                   NS1:name="Default"
-                   NS1:description="The default theme."
-                   NS1:creator="Mozilla"
-                   NS1:contributor="Mozilla Contributors">
-    <NS1:type NC:parseType="Integer">4</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$IUPZT"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-en-GB@firefox-3.0.ubuntu.com"
-                   NS1:installLocation="app-global"
-                   NS1:version="3.0.3"
-                   NS1:name="Firefox (en-GB)"
-                   NS1:creator="http://translations.launchpad.net">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$4VPZT"/>
+  <RDF:Description RDF:about="urn:mozilla:item:{DD43485F-44CC-4452-A6C6-69356A7E33DA}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.3.1"
+                   NS1:optionsURL="chrome://autohide/content/ahPref.xul"
+                   NS1:iconURL="chrome://autohide/skin/icon.png"
+                   NS1:name="Autohide"
+                   NS1:description="Tweaks for Full Screen. Eala Frya Fresena!"
+                   NS1:creator="Jochen"
+                   NS1:homepageURL="http://www.krickelkrackel.de/autohide/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$zYzid2"/>
   </RDF:Description>
   <RDF:Description RDF:about="urn:mozilla:item:langpack-en-GB@xulrunner-1.9.ubuntu.com"
                    NS1:installLocation="gre-global"
@@ -33,27 +20,8 @@
                    NS1:name="Xulrunner (en-GB)"
                    NS1:creator="http://translations.launchpad.net">
     <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$tUPZT"/>
+    <NS1:targetApplication RDF:resource="rdf:#$KXzid2"/>
   </RDF:Description>
-  <RDF:Seq RDF:about="urn:mozilla:item:root">
-    <RDF:li RDF:resource="urn:mozilla:item:{DD43485F-44CC-4452-A6C6-69356A7E33DA}"/>
-    <RDF:li RDF:resource="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"/>
-    <RDF:li RDF:resource="urn:mozilla:item:langpack-en-GB@firefox-3.0.ubuntu.com"/>
-    <RDF:li RDF:resource="urn:mozilla:item:ubufox@ubuntu.com"/>
-    <RDF:li RDF:resource="urn:mozilla:item:langpack-en-GB@xulrunner-1.9.ubuntu.com"/>
-  </RDF:Seq>
-  <RDF:Description RDF:about="rdf:#$IUPZT"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="3.0.3"
-                   NS1:maxVersion="3.0.3" />
-  <RDF:Description RDF:about="rdf:#$4VPZT"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="3.0"
-                   NS1:maxVersion="3.0.*" />
-  <RDF:Description RDF:about="rdf:#$iVPZT"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0"
-                   NS1:maxVersion="3.1b2pre" />
   <RDF:Description RDF:about="urn:mozilla:item:ubufox@ubuntu.com"
                    NS1:installLocation="app-global"
                    NS1:version="0.6"
@@ -67,22 +35,54 @@
     <NS1:contributor>Daniel Abramov &lt;ex@vingrad.ru&gt;</NS1:contributor>
     <NS1:contributor>Arzhel Younsi &lt;xionox@gmail.com&gt;</NS1:contributor>
     <NS1:contributor>Saïvann Carignan &lt;oxmosys@gmail.com&gt;</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$ZUPZT"/>
+    <NS1:targetApplication RDF:resource="rdf:#$eYzid2"/>
   </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:{DD43485F-44CC-4452-A6C6-69356A7E33DA}"
-                   NS1:installLocation="app-profile"
-                   NS1:version="1.3.1"
-                   NS1:optionsURL="chrome://autohide/content/ahPref.xul"
-                   NS1:iconURL="chrome://autohide/skin/icon.png"
-                   NS1:name="Autohide"
-                   NS1:description="Tweaks for Full Screen. Eala Frya Fresena!"
-                   NS1:creator="Jochen"
-                   NS1:homepageURL="http://www.krickelkrackel.de/autohide/">
-    <NS1:type NC:parseType="Integer">2</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$iVPZT"/>
+  <RDF:Seq RDF:about="urn:mozilla:item:root">
+    <RDF:li RDF:resource="urn:mozilla:item:{DD43485F-44CC-4452-A6C6-69356A7E33DA}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:langpack-en-GB@firefox-3.0.ubuntu.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:ubufox@ubuntu.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:langpack-en-GB@xulrunner-1.9.ubuntu.com"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$lYzid2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="3.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"
+                   NS1:installLocation="gre-global"
+                   NS1:version="3.0.5"
+                   NS1:internalName="classic/1.0"
+                   NS1:locked="true"
+                   NS1:appManaged="true"
+                   NS1:name="Default"
+                   NS1:description="The default theme."
+                   NS1:creator="Mozilla"
+                   NS1:contributor="Mozilla Contributors">
+    <NS1:type NC:parseType="Integer">4</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$OYzid2"/>
   </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$ZUPZT"
+  <RDF:Description RDF:about="rdf:#$zYzid2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="3.1b2pre" />
+  <RDF:Description RDF:about="rdf:#$OYzid2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0.5"
+                   NS1:maxVersion="3.0.5" />
+  <RDF:Description RDF:about="rdf:#$eYzid2"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    NS1:minVersion="1.5"
                    NS1:maxVersion="3.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-en-GB@firefox-3.0.ubuntu.com"
+                   NS1:installLocation="app-global"
+                   NS1:version="3.0.3"
+                   NS1:name="Firefox (en-GB)"
+                   NS1:creator="http://translations.launchpad.net">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$lYzid2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$KXzid2"
+                   NS1:id="toolkit@mozilla.org"
+                   NS1:minVersion="1.9"
+                   NS1:maxVersion="1.9.0.*" />
 </RDF:RDF>
