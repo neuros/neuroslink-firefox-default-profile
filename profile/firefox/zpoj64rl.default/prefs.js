@@ -65,6 +65,7 @@ user_pref("extensions.lastAppVersion", "3.0.5");
 user_pref("extensions.update.notifyUser", false);
 user_pref("font.minimum-size.x-western", 16);
 user_pref("font.size.fixed.x-western", 16);
+user_pref("layout.css.dpi",0);
 user_pref("intl.charsetmenu.browser.cache", "UTF-8, ISO-8859-1");
 user_pref("network.cookie.prefsMigrated", true);
 user_pref("network.dns.disableIPv6", true);

@@ -1,3 +1,9 @@
+firefox-default-profile (1.2) intrepid; urgency=low
+
+  * Force firefox to read gnome's dpi
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Tue, 13 Jan 2009 11:58:41 -0600
+
 firefox-default-profile (1.1) intrepid; urgency=low
 
   * Change Cache to /tmp
