@@ -1,0 +1,18 @@
+1.) Add Neuros.TV theme (attached to this bug) by navigating to Tools > 
+Add-ons
+> Themes, then dragging the .jar file into the left pane of the dialog.
+2.) Remove Stop and Reload from URL bar (right-click on an icon, choose
+Customize, and drag the Stop and Reload icons from the main window's URL 
+bar
+into the dialog window)
+3.) Remove Bookmarks toolbar: navigate to View > Toolbars and uncheck 
+Bookmarks
+toolbar
+4.) Copy attached neurostv.xml to
+~/.mozilla/firefox/*.default/searchplugins/neurostv.xml (permissions 
+644). 
+Create searchplugins directory if necessary.
+5.) Launch Firefox, click the Google search icon, and change it to 
+Neuros.TV. 
+Ensure the browser is full-screened (F11) and close it.
+
