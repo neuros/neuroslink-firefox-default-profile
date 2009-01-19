@@ -77,11 +77,3 @@ The default plugin handles plugin data for mimetypes and extensions that are not
 Default Plugin:$
 1
 0:*:All types:.*:$
-/usr/lib/flashplugin-nonfree/libflashplayer.so:$
-:$
-1231442731000:1:5:$
-Shockwave Flash 10.0 r15:$
-Shockwave Flash:$
-2
-0:application/x-shockwave-flash:Shockwave Flash:swf:$
-1:application/futuresplash:FutureSplash Player:spl:$

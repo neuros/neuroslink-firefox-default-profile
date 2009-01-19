@@ -7,8 +7,8 @@
 [Directories,9]
 0,/usr/lib/firefox-3.0.5/components
 1,/usr/lib/xulrunner-1.9.0.5/components
-2,/home/neurostv/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/components
-3,/home/neurostv/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/platform/Linux_x86-gcc3/components
+2,/home/tom/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/components
+3,/home/tom/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/platform/Linux_x86-gcc3/components
 4,/usr/lib/firefox-3.0.5/extensions/ubufox@ubuntu.com/components
 5,/usr/lib/xulrunner-1.9.0.5/plugins
 6,/usr/lib/firefox-3.0.5/plugins

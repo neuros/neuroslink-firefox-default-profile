@@ -5,11 +5,12 @@ Version,0,5
 
 [COMPONENTS]
 gre:nsHandlerService.js,1209514861000
-gre:nsContentDispatchChooser.js,1199751025000
+rel:nsSessionStore.js,1229466112000
 rel:WebContentConverter.js,1229466112000
 gre:nsDictionary.js,1082326452000
 gre:nsWebHandlerApp.js,1193163656000
 gre:jsconsole-clhandler.js,1229468771000
+gre:nsProxyAutoConfig.js,1205199608000
 rel:libbrowsercomps.so,1229466207000
 gre:libimgicon.so,1229469066000
 gre:nsTryToClose.js,1188530880000
@@ -22,6 +23,7 @@ rel:nsSidebar.js,1229466112000
 gre:nsHelperAppDlg.js,1229468823000
 gre:nsDefaultCLH.js,1229468799000
 rel:nsBrowserGlue.js,1229466112000
+abs:/home/tom/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/components/ahHandleFullscreenFlag.js,1223787600000
 gre:nsUpdateService.js,1229468824000
 rel:FeedWriter.js,1229466112000
 gre:nsLoginManagerPrompter.js,1229466587000
@@ -29,6 +31,7 @@ gre:storage-Legacy.js,1223077753000
 gre:nsAddonRepository.js,1229468823000
 gre:libnkgnomevfs.so,1229469082000
 gre:libmozgnome.so,1229469082000
+abs:/home/tom/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/platform/Linux_x86-gcc3/components/ahWinUtils_32.so,1231274721000
 gre:nsURLFormatter.js,1229468738000
 gre:nsResetPref.js,1099078112000
 rel:aboutRobots.js,1229466112000
@@ -36,16 +39,14 @@ gre:nsProgressDialog.js,1183663905000
 rel:fuelApplication.js,1229466112000
 rel:aboutRights.js,1229466112000
 gre:nsExtensionManager.js,1229468823000
-rel:nsSessionStore.js,1229466112000
 rel:nsPlacesTransactionsService.js,1229466112000
+gre:nsContentDispatchChooser.js,1199751025000
 rel:libnkgnomevfs.so,1229466210000
 gre:nsUrlClassifierLib.js,1229468794000
-abs:/home/neurostv/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/components/ahHandleFullscreenFlag.js,1223787600000
 gre:nsBadCertHandler.js,1205885678000
 gre:nsUrlClassifierListManager.js,1229468794000
 rel:nsSetDefaultBrowser.js,1229466112000
 rel:nsBrowserContentHandler.js,1229466112000
-abs:/home/neurostv/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/platform/Linux_x86-gcc3/components/ahWinUtils_32.so,1231274721000
 gre:nsContentPrefService.js,1211763900000
 gre:nsBlocklistService.js,1229468823000
 gre:nsXmlRpcClient.js,1161705721000
@@ -53,7 +54,6 @@ gre:libdbusservice.so,1229469066000
 gre:nsXULAppInstall.js,1229468956000
 rel:nsSafebrowsingApplication.js,1229466112000
 rel:nsMicrosummaryService.js,1229466112000
-gre:nsProxyAutoConfig.js,1205199608000
 rel:libbrowserdirprovider.so,1229466207000
 rel:nsSearchService.js,1229466112000
 gre:FeedProcessor.js,1209142274000
@@ -78,7 +78,7 @@ gre:nsTaggingService.js,1229468770000
 {73bb7c12-dbab-4ae2-aecf-a0331dec916f},,application/x-mozilla-static,,nsUCvMathModule
 {cb6593e0-f9b2-11d2-bdd6-000064657374},@mozilla.org/js/xpc/XPConnect;1,application/x-mozilla-static,,xpconnect
 {e768ebef-70f9-4fe3-8835-4f4f3fd996e2},,application/x-mozilla-static,,nsUCvMathModule
-{229fa115-9412-4d32-baf3-2fc407f76fb1},,text/javascript,,rel:FeedConverter.js
+{5d0ce354-df01-421a-83fb-7ead0990c24e},,text/javascript,,rel:nsBrowserContentHandler.js
 {4bfaa9f0-1dd2-11b2-afae-a82cbaa0b606},,application/x-mozilla-static,,PKI
 {f1299dc2-1dd1-11b2-a347-ee6b7660e048},,application/x-mozilla-static,,JavaScript_Debugger
 {0de2fbfa-6b7f-11d7-bbba-0003938a9d96},,application/x-mozilla-static,,nsLayoutModule
@@ -131,7 +131,7 @@ gre:nsTaggingService.js,1229468770000
 {b88a4712-eb52-4c10-9b85-bf5894b510f0},,application/x-mozilla-static,,nsLayoutModule
 {6a4d4c1e-a74a-4320-8124-16233a0183d6},,application/x-mozilla-static,,nsSoftwareUpdate
 {ba6151b2-1dfa-11d3-b3bf-00805f8a6670},,application/x-mozilla-static,,nsUConvModule
-{dd23c6c4-0884-43f9-8e6a-5dbbe13f7346},,text/javascript,,abs:/home/neurostv/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/components/ahHandleFullscreenFlag.js
+{dd23c6c4-0884-43f9-8e6a-5dbbe13f7346},,text/javascript,,abs:/home/tom/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/components/ahHandleFullscreenFlag.js
 {5ad0eace-1dd2-11b2-a260-ff42edcaedb3},,application/x-mozilla-static,,nsWebServicesModule
 {0c351177-0159-4500-86b0-a219dfde4258},,application/x-mozilla-static,,nsLayoutModule
 {495eca47-0a5c-11d4-a135-005004832142},,application/x-mozilla-static,,nsUConvModule
@@ -160,7 +160,7 @@ gre:nsTaggingService.js,1229468770000
 {c0844a84-5a12-4808-80a8-809cb002bb4f},,text/javascript,,rel:nsPlacesTransactionsService.js
 {5060b803-340e-11d5-be5b-b3e063ec6a3c},,application/x-mozilla-static,,nsFindComponent
 {a6cf9107-15b3-11d2-932e-00805f8add32},,application/x-mozilla-static,,nsParserModule
-{22df425d-9247-4616-a92a-be0d64b56637},,application/x-mozilla-native,,abs:/home/neurostv/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/platform/Linux_x86-gcc3/components/ahWinUtils_32.so
+{22df425d-9247-4616-a92a-be0d64b56637},,application/x-mozilla-native,,abs:/home/tom/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/platform/Linux_x86-gcc3/components/ahWinUtils_32.so
 {21dd6a02-413c-11d3-b3c3-00805f8a6670},,application/x-mozilla-static,,nsUConvModule
 {c5de4da2-d667-42d2-b8c2-efdbcf3302ef},,application/x-mozilla-static,,nsUConvModule
 {57cf9383-3405-11d5-be5b-aa20fa2cf37c},,application/x-mozilla-static,,embedcomponents
@@ -180,6 +180,7 @@ gre:nsTaggingService.js,1229468770000
 {74b7a390-3b41-11d4-8a80-006008c844c3},,application/x-mozilla-static,,NSS
 {22117140-9c6e-11d3-aaf1-00805f8a4905},,text/javascript,,rel:nsSidebar.js
 {9de95a0c-39a4-4d64-9a53-17940dd7cabb},,application/x-mozilla-static,,nsPlacesModule
+{63c7b9f4-0cc8-43f8-b666-0a661655cb73},,application/x-mozilla-native,,rel:libbrowsercomps.so
 {66856477-6596-40eb-bb87-59ca2dabb6f7},,application/x-mozilla-static,,nsLayoutModule
 {892ffeb0-3f80-11d3-a16c-0050041caf44},,application/x-mozilla-static,,necko
 {929d9320-251e-11d4-8a7c-006008c844c3},,application/x-mozilla-static,,NSS
@@ -368,7 +369,7 @@ gre:nsTaggingService.js,1229468770000
 {e6156350-2be8-11db-a98b-0800200c9a66},,text/javascript,,gre:nsURLFormatter.js
 {6394eead-fc3d-11d2-b3b8-00805f8a6670},,application/x-mozilla-static,,nsUConvModule
 {42c52b81-a200-11d3-9d0b-0050040007b2},,application/x-mozilla-static,,nsXPIntlModule
-{5d0cfa97-69dd-4e5e-ac84-f253162e8f9a},,text/javascript,,gre:FeedProcessor.js
+{32314cc8-22f7-4f7f-a645-1a45453ba6a6},,text/javascript,,gre:nsHandlerService.js
 {a59da932-4091-11d5-a145-005004832142},,application/x-mozilla-static,,nsUConvModule
 {bfcb82c2-5611-4318-90d6-baf4a7864252},,application/x-mozilla-static,,nsLayoutModule
 {9d3f70da-86e9-11d4-95ec-00b0d03e37b7},,application/x-mozilla-static,,nsLayoutModule
@@ -454,7 +455,7 @@ gre:nsTaggingService.js,1229468770000
 {0a698c44-3bff-11d4-9649-00c0ca135b4e},,application/x-mozilla-static,,nsUConvModule
 {bfd1a791-ad9f-11d3-bdc7-0050040a9b44},,application/x-mozilla-static,,docshell_provider
 {36102b6b-7b62-451a-a1c8-a0d456c92dc5},,application/x-mozilla-static,,nsSecurityManagerModule
-{63c7b9f4-0cc8-43f8-b666-0a661655cb73},,application/x-mozilla-native,,rel:libbrowsercomps.so
+{ec7a6c20-e081-11da-8ad9-0800200c9a66},,text/javascript,,rel:nsSessionStartup.js
 {8aa66d77-1bbb-45a6-991e-b8f47751c291},,text/javascript,,gre:nsLoginManagerPrompter.js
 {5f43022c-6194-4b37-b26d-e41024625264},,application/x-mozilla-native,,gre:libmozgnome.so
 {a83b0823-f10e-4235-9859-88a5abd2ed54},,application/x-mozilla-static,,nsWebServicesModule
@@ -523,17 +524,16 @@ gre:nsTaggingService.js,1229468770000
 {09f689e0-b4da-11d2-a68b-00104bde6048},,application/x-mozilla-static,,nsLayoutModule
 {eae599aa-ecef-49c6-a8af-6ddcc6feb484},,application/x-mozilla-static,,NSS
 {fcca6f83-9f7d-44e4-a74b-b59433e6c8c3},,application/x-mozilla-static,,nsLayoutModule
+{e09e4ca6-276b-4bb4-8b71-0635a3a2a007},,text/javascript,,gre:storage-Legacy.js
 {218f2ac0-0a48-11d3-b3ba-00805f8a6670},,application/x-mozilla-static,,nsChardetModule
 {6049b261-c1e6-11d1-a827-0040959a28c9},,application/x-mozilla-static,,nsGfxModule
 {663ca4a8-d219-4000-925d-d8f66406b626},,application/x-mozilla-static,,nsAccessibilityModule
 {6394eea2-fc3d-11d2-b3b8-00805f8a6670},,application/x-mozilla-static,,nsUConvModule
 {bfd05264-834c-11d2-8eac-00805f29f370},,application/x-mozilla-static,,nsRDFModule
-{9b6dc177-a2e4-49e1-9c98-0a8384de7f6c},,application/x-mozilla-native,,rel:libnkgnomevfs.so
 {2bc2ad62-ad5d-4b7b-a9db-f74ae203c527},,application/x-mozilla-static,,nsUConvModule
 {1f1ce501-663a-11d3-b7a0-be426e4e69bc},,application/x-mozilla-static,,appshell
 {3f429a14-dffe-417d-8cb8-fdf09bacd09e},,application/x-mozilla-static,,NSS
 {a2059c0e-5a58-4c55-ab7c-26f0557546ef},,application/x-mozilla-static,,satchel
-{5d0ce354-df01-421a-83fb-7ead0990c24e},,text/javascript,,rel:nsBrowserContentHandler.js
 {a61e6398-2057-40fd-9c81-873b908d24e7},,application/x-mozilla-static,,nsWidgetGtk2Module
 {8d995d4f-adcc-4159-b7f1-e94af72eeb88},,application/x-mozilla-static,,BOOT
 {2ee3039b-2de4-43d9-93b0-649beacff39a},,application/x-mozilla-static,,tkAutoCompleteModule
@@ -578,7 +578,6 @@ gre:nsTaggingService.js,1229468770000
 {e1c61582-2a84-11d3-8cce-0060b0fc14a3},,application/x-mozilla-static,,necko
 {a0f827e2-8ab6-11d5-a14b-005004832142},,application/x-mozilla-static,,nsUConvModule
 {6803cace-1e3b-11d5-a145-005004832142},,application/x-mozilla-static,,nsUConvModule
-{32314cc8-22f7-4f7f-a645-1a45453ba6a6},,text/javascript,,gre:nsHandlerService.js
 {1c31ed79-accd-4b94-b517-06e0c81999d5},,text/javascript,,rel:FeedConverter.js
 {2f977d4f-5485-11d4-87e2-0010a4e75ef2},,application/x-mozilla-static,,nsPrefModule
 {fe74cf80-aa2d-11db-abbd-0800200c9a66},,text/javascript,,rel:fuelApplication.js
@@ -614,7 +613,6 @@ gre:nsTaggingService.js,1229468770000
 {7ee2a4c0-4b93-17d3-ba18-0060b0f199a2},@mozilla.org/scriptsecuritymanager;1,application/x-mozilla-static,scriptsecuritymanager,nsSecurityManagerModule
 {ba6151b3-1dfa-11d3-b3bf-00805f8a6670},,application/x-mozilla-static,,nsUConvModule
 {ca168834-cc00-48f9-b83c-fd018e58cae3},,text/javascript,,gre:nsUrlClassifierListManager.js
-{ec7a6c20-e081-11da-8ad9-0800200c9a66},,text/javascript,,rel:nsSessionStartup.js
 {77221d5a-1dd2-11b2-8c69-c710f15d2ed5},,application/x-mozilla-static,,nsWidgetGtk2Module
 {5280606b-2510-4fe0-97ef-9b5a22eafe6b},,text/javascript,,rel:nsSessionStore.js
 {495eca48-0a5c-11d4-a135-005004832142},,application/x-mozilla-static,,nsUConvModule
@@ -657,6 +655,7 @@ gre:nsTaggingService.js,1229468770000
 {aa40253b-4c42-4056-8132-37bcd07862fd},,application/x-mozilla-static,,nsLayoutModule
 {4e4aae11-8901-46cc-8217-dad7c5415873},,application/x-mozilla-static,,embedcomponents
 {fbc81170-1f69-11d3-9344-00104ba0fd40},@mozilla.org/network/protocol;1?name=file,application/x-mozilla-static,nsFileProtocolHandler,necko
+{5d0cfa97-69dd-4e5e-ac84-f253162e8f9a},,text/javascript,,gre:FeedProcessor.js
 {a0d6ad32-1dd1-11b2-aa55-a40187b54036},,application/x-mozilla-static,,necko
 {984e3259-9266-49cf-b605-60b022a00756},,application/x-mozilla-static,,nsPlacesModule
 {ba6151ab-1dfa-11d3-b3bf-00805f8a6670},,application/x-mozilla-static,,nsUConvModule
@@ -770,7 +769,7 @@ gre:nsTaggingService.js,1229468770000
 {7ef52eaf-b7e1-462b-87e2-5d1dbaca9048},,application/x-mozilla-static,,mozSpellCheckerModule
 {c95f1831-c376-11d1-b721-00600891d8c9},,application/x-mozilla-static,,nsLayoutModule
 {cf3a0e06-1dd1-11b2-a904-ac1d6da77a02},,application/x-mozilla-static,,necko
-{e09e4ca6-276b-4bb4-8b71-0635a3a2a007},,text/javascript,,gre:storage-Legacy.js
+{9b6dc177-a2e4-49e1-9c98-0a8384de7f6c},,application/x-mozilla-native,,rel:libnkgnomevfs.so
 {56c778e4-1bee-45f3-a689-886692a97fe7},,application/x-mozilla-static,,mozSpellCheckerModule
 {2e41ada0-62b7-4902-b9a6-e4542aa458ba},,application/x-mozilla-static,,embedcomponents
 {fd9a9e8a-a77b-496a-b7bb-263df9715149},,application/x-mozilla-static,,nsImageLib2Module
@@ -790,6 +789,7 @@ gre:nsTaggingService.js,1229468770000
 {ed150a6a-4592-4e2c-82f8-70c8d65f74d2},,application/x-mozilla-static,,nsWebServicesModule
 {7c657d17-ec5e-11d2-8aac-00600811a836},,application/x-mozilla-static,,nsUConvModule
 {6394eea9-fc3d-11d2-b3b8-00805f8a6670},,application/x-mozilla-static,,nsUConvModule
+{229fa115-9412-4d32-baf3-2fc407f76fb1},,text/javascript,,rel:FeedConverter.js
 {66354bc9-7ed1-4692-ae1d-8da97d6b205e},,text/javascript,,gre:nsBlocklistService.js
 {171e72db-0f8a-412a-8461-e4c927a3a2ac},,application/x-mozilla-static,,nsComposerModule
 {ef565d0a-ab9a-4a13-9160-0644cdfd859a},,application/x-mozilla-static,,nsCookieModule
@@ -1860,15 +1860,15 @@ agent-style-sheets,pluginfinder xbl binding,chrome://ubufox/content/alternatePlu
 JavaScript global constructor prototype alias,Image,HTMLImageElement
 JavaScript global constructor prototype alias,Option,HTMLOptionElement
 module-loader,text/javascript,@mozilla.org/moz/jsloader;1
-app-startup,Firefox Browser Glue Service,service,@mozilla.org/browser/browserglue;1
-app-startup,Browser Session Startup Service,service,@mozilla.org/browser/sessionstartup;1
 app-startup,tryToClose Service,service,@mozilla.org/appshell/trytoclose;1
 app-startup,Extension Manager,service,@mozilla.org/extensions/manager;1
+app-startup,Firefox Browser Glue Service,service,@mozilla.org/browser/browserglue;1
 app-startup,Web Content Handler Registrar,service,@mozilla.org/embeddor.implemented/web-content-handler-registrar;1
-app-startup,Application,service,@mozilla.org/fuel/application;1
+app-startup,Browser Session Startup Service,service,@mozilla.org/browser/sessionstartup;1
 app-startup,Window Data Source,service,@mozilla.org/rdf/datasource;1?name=window-mediator
 app-startup,Update Service,service,@mozilla.org/updates/update-service;1
 app-startup,Blocklist Service,service,@mozilla.org/extensions/blocklist;1
+app-startup,Application,service,@mozilla.org/fuel/application;1
 app-startup,SystemPref Module,@mozilla.org/system-preferences;1
 app-startup,Script Security Manager,service,@mozilla.org/scriptsecuritymanager;1
 uconv-charset-data,resource://gre/res/charsetData.properties,
