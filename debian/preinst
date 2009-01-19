@@ -1,7 +1,22 @@
-#!/bin/sh
+#!/bin/bash
+
+if ps ax | grep -v grep | grep firefox > /dev/null
+then
+  CONFIRMFIREFOXCLOSE=0
+  if [ "$CONFIRMFIREFOXCLOSE" = "0" ]; then
+    ### User confirmed - kill Firefox
+    echo "Killing Firefox so can write new profile"
+    killall firefox
+    sleep 4
+  else
+    ### User canceled - stop script
+    echo "Aborting"
+    exit 0;
+  fi
+fi
 
 if [ -e /home/neurostv/.mozilla ]; then
-	rm -rf /home/neurostv/.mozilla
 	echo "Found existing Mozilla, sorry being removed."
+	rm -rf /home/neurostv/.mozilla
 fi
 

@@ -1,6 +1,14 @@
 #!/bin/sh
 
 if [ -e /home/neurostv/.mozilla ]; then
-	chown neurostv.neurostv -R /home/neurostv/.mozilla
+	rm -rf /home/neurostv/mozilla
+else
+	mkdir -p /home/neurostv/.mozilla
+fi
+
+
+if [ -e /home/neurostv/.mozilla ]; then
+	cp -Rpda /usr/share/neuroslink/firefox /home/neurostv/.mozilla
+	chown 1000.1000 -R /home/neurostv/.mozilla
 fi
 
