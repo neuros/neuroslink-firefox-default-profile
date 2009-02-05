@@ -23,7 +23,6 @@ rel:nsSidebar.js,1229466112000
 gre:nsHelperAppDlg.js,1229468823000
 gre:nsDefaultCLH.js,1229468799000
 rel:nsBrowserGlue.js,1229466112000
-abs:/home/tom/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/components/ahHandleFullscreenFlag.js,1233846611000
 gre:nsUpdateService.js,1229468824000
 rel:FeedWriter.js,1229466112000
 gre:nsLoginManagerPrompter.js,1229466587000
@@ -31,7 +30,6 @@ gre:storage-Legacy.js,1223077753000
 gre:nsAddonRepository.js,1229468823000
 gre:libnkgnomevfs.so,1229469082000
 gre:libmozgnome.so,1229469082000
-abs:/home/tom/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/platform/Linux_x86-gcc3/components/ahWinUtils_32.so,1233846611000
 gre:nsURLFormatter.js,1229468738000
 gre:nsResetPref.js,1099078112000
 rel:aboutRobots.js,1229466112000
@@ -131,7 +129,6 @@ gre:nsTaggingService.js,1229468770000
 {b88a4712-eb52-4c10-9b85-bf5894b510f0},,application/x-mozilla-static,,nsLayoutModule
 {6a4d4c1e-a74a-4320-8124-16233a0183d6},,application/x-mozilla-static,,nsSoftwareUpdate
 {ba6151b2-1dfa-11d3-b3bf-00805f8a6670},,application/x-mozilla-static,,nsUConvModule
-{dd23c6c4-0884-43f9-8e6a-5dbbe13f7346},,text/javascript,,abs:/home/tom/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/components/ahHandleFullscreenFlag.js
 {5ad0eace-1dd2-11b2-a260-ff42edcaedb3},,application/x-mozilla-static,,nsWebServicesModule
 {0c351177-0159-4500-86b0-a219dfde4258},,application/x-mozilla-static,,nsLayoutModule
 {495eca47-0a5c-11d4-a135-005004832142},,application/x-mozilla-static,,nsUConvModule
@@ -160,7 +157,6 @@ gre:nsTaggingService.js,1229468770000
 {c0844a84-5a12-4808-80a8-809cb002bb4f},,text/javascript,,rel:nsPlacesTransactionsService.js
 {5060b803-340e-11d5-be5b-b3e063ec6a3c},,application/x-mozilla-static,,nsFindComponent
 {a6cf9107-15b3-11d2-932e-00805f8add32},,application/x-mozilla-static,,nsParserModule
-{22df425d-9247-4616-a92a-be0d64b56637},,application/x-mozilla-native,,abs:/home/tom/.mozilla/firefox/zpoj64rl.default/extensions/{DD43485F-44CC-4452-A6C6-69356A7E33DA}/platform/Linux_x86-gcc3/components/ahWinUtils_32.so
 {21dd6a02-413c-11d3-b3c3-00805f8a6670},,application/x-mozilla-static,,nsUConvModule
 {c5de4da2-d667-42d2-b8c2-efdbcf3302ef},,application/x-mozilla-static,,nsUConvModule
 {57cf9383-3405-11d5-be5b-aa20fa2cf37c},,application/x-mozilla-static,,embedcomponents
@@ -379,7 +375,7 @@ gre:nsTaggingService.js,1229468770000
 {7526a738-9632-11d3-8cd9-0060b0fc14a3},,application/x-mozilla-static,,nsJarModule
 {ff8c4d10-3194-11d3-9885-006008962422},@mozilla.org/js/xpc/ContextStack;1,application/x-mozilla-static,,xpconnect
 {d2800356-c2d7-4e05-a884-79fe566af1cf},,application/x-mozilla-static,,nsUConvModule
-{9868b4ce-da08-11d3-8cda-0060b0fc14a3},,application/x-mozilla-static,,necko
+{9868b4ce-da08-11d3-8cda-0060b0fc14a3},@mozilla.org/network/buffered-output-stream;1,application/x-mozilla-static,nsBufferedOutputStream,necko
 {69bb8313-2d4f-45ec-97e0-d39da58ecce9},,text/javascript,,gre:nsExtensionManager.js
 {ba6151b9-1dfa-11d3-b3bf-00805f8a6670},,application/x-mozilla-static,,nsUConvModule
 {d9b1f97f-cfa0-80b6-fb92-9972e48e3dcc},,application/x-mozilla-static,,nsUConvModule
@@ -742,7 +738,7 @@ gre:nsTaggingService.js,1229468770000
 {2ea2e7d0-4095-11d3-9144-006008a6edf6},,application/x-mozilla-static,,nsI18nModule
 {dd156d62-d26f-4441-9cdb-e8f09107c273},,application/x-mozilla-static,,nsSecurityManagerModule
 {6394eeb1-fc3d-11d2-b3b8-00805f8a6670},,application/x-mozilla-static,,nsUConvModule
-{c272fee0-c7e9-11d3-8cda-0060b0fc14a3},,application/x-mozilla-static,,necko
+{c272fee0-c7e9-11d3-8cda-0060b0fc14a3},@mozilla.org/network/file-output-stream;1,application/x-mozilla-static,nsFileOutputStream,necko
 {96ec4163-efc8-407a-8735-007fb26be4e8},,application/x-mozilla-static,,nsAuthModule
 {e38e53b9-5bb0-456a-b553-579370cb1567},,application/x-mozilla-static,,xpconnect
 {a6cf90e3-15b3-11d2-932e-00805f8add32},,application/x-mozilla-static,,nsLayoutModule
@@ -1462,7 +1458,6 @@ gre:nsTaggingService.js,1229468770000
 @mozilla.org/url-classifier/dbservice;1,{5eb7c3c1-ec1f-4007-87cc-eefb37d68ce6}
 @mozilla.org/widget/window/gtk;1,{2d96b3d0-c051-11d1-a827-0040959a28c9}
 @mozilla.org/network/protocol/about;1?what=feeds,{12ff56ec-58be-402c-b057-01f961de969b}
-@krickelkrackel/browser/fullscreen-clh;1,{dd23c6c4-0884-43f9-8e6a-5dbbe13f7346}
 @mozilla.org/document-transformer;1?type=xslt,{bacd8ad0-552f-11d3-a9f7-000064657374}
 @mozilla.org/image/decoder;2?type=image/vnd.microsoft.icon,{cb3ede1a-0fa5-4e27-aafe-0f7801e5a1f1}
 @mozilla.org/intl/unicode/decoder;1?charset=ISO-IR-111,{9416bfb1-1f93-11d3-b3bf-00805f8a6670}
@@ -1554,7 +1549,6 @@ gre:nsTaggingService.js,1229468770000
 @mozilla.org/intl/unicode/decoder;1?charset=IBM852,{2d524fd1-ae74-11d3-abf7-0004aceefa51}
 @mozilla.org/download-manager-ui;1,{7dfdf0d1-aff6-4a34-bad1-d0fe74601642}
 @mozilla.org/layout/contentserializer;1?mimetype=application/vnd.mozilla.xul+xml,{4aef38b7-6364-4e23-a5e7-12f837fbbd9c}
-@krickelkrackel/ahWin32Utils;1,{22df425d-9247-4616-a92a-be0d64b56637}
 @mozilla.org/intl/unicode/encoder;1?charset=x-gbk,{ba61519b-1dfa-11d3-b3bf-00805f8a6670}
 @mozilla.org/intl/unicode/decoder;1?charset=IBM855,{2d524fd2-ae74-11d3-abf7-0004aceefa51}
 @mozilla.org/satchel/form-fill-controller;1,{895db6c7-dbdf-40ea-9f64-b175033243dc}
@@ -1787,7 +1781,6 @@ xpcom-directory-providers,browser-directory-provider,@mozilla.org/browser/direct
 uconv-charset-titles,chrome://global/locale/charsetTitles.properties,
 pref-config-startup,ReadConfig Module,@mozilla.org/readconfig;1
 command-line-handler,x-default,@mozilla.org/browser/final-clh;1
-command-line-handler,m-fullscreen,@krickelkrackel/browser/fullscreen-clh;1
 command-line-handler,b-jsconsole,@mozilla.org/toolkit/console-clh;1
 command-line-handler,m-setdefaultbrowser,@mozilla.org/browser/default-browser-clh;1
 command-line-handler,m-browser,@mozilla.org/browser/clh;1
