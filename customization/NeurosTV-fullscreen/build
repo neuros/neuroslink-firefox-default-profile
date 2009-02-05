@@ -1,0 +1,10 @@
+#!/bin/bash
+rm chrome/ntvfullscreen.jar
+cd chrome
+7z a -tzip ntvfullscreen.zip content
+mv ntvfullscreen.zip ntvfullscreen.jar
+cd ..
+rm ntvfullscreen.xpi
+7z a -tzip ntvfullscreen.zip chrome chrome.manifest defaults install.rdf
+mv ntvfullscreen.zip ntvfullscreen.xpi
+

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">  
+  <em:id>{d8a50a20-cf9e-11dd-ad8b-0800200c9a66}</em:id>
+    <em:version>1.0</em:version>
+  
+<!-- Target Application this extension can install into, 
+         with minimum and maximum supported versions. --> 
+
+<em:targetApplication>
+    <Description>
+      <!-- Firefox's UUID // DO NOT CHANGE-->
+      <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+       <!-- End Firefox's UUID // -->
+      <em:minVersion>3.0</em:minVersion>
+      <em:maxVersion>3.0.*</em:maxVersion>
+    </Description>
+  </em:targetApplication>
+  
+  <!-- Front End MetaData -->
+  <!-- My_Theme -->
+  <em:name>NeurosTV</em:name>
+  <em:description>NeurosTV Theme</em:description>
+  <em:creator>Jason Shah and John Olson</em:creator>
+  <em:contributor>Neuros.TV</em:contributor>
+  <em:homepageURL>http://www.neuros.tv</em:homepageURL>
+  <!-- <em:updateURL>http://www.twistermc.com/</em:updateURL>
+  <em:aboutURL>http://www.twistermc.com/</em:aboutURL> -->
+  
+  <!-- Front End Integration Hooks (used by Theme Manager)-->
+    <em:internalName>NeurosTV</em:internalName>
+  </Description>      
+
+</RDF>

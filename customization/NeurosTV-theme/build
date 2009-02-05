@@ -1,0 +1,5 @@
+#!/bin/bash
+rm NeurosTV-theme.xpi
+7z a -tzip NeurosTV-theme.zip browser communicator global help mozapps contents.rdf icon.png install.rdf preview.png
+mv NeurosTV-theme.zip NeurosTV-theme.xpi
+

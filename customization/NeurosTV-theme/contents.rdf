@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+
+  <!-- List all the skins being supplied by this theme -->
+  <RDF:Seq about="urn:mozilla:skin:root">
+    <RDF:li resource="urn:mozilla:skin:NeurosTV"/>
+  </RDF:Seq>
+  
+  <RDF:Description about="urn:mozilla:skin:NeurosTV" 
+        chrome:displayName="NeurosTV"
+        chrome:accessKey="n"
+        chrome:author="Jason Shah"
+        chrome:authorURL="http://www.neurostechnology.com"
+        chrome:description="Firefox Neuros.TV theme."
+        chrome:name="NeurosTV"
+        chrome:image="preview.png" >
+   <chrome:packages>
+      <RDF:Seq about="urn:mozilla:skin:NeurosTV:packages">
+        <RDF:li resource="urn:mozilla:skin:NeurosTV:browser"/>
+        <RDF:li resource="urn:mozilla:skin:NeurosTV:communicator"/>
+        <RDF:li resource="urn:mozilla:skin:NeurosTV:global"/>
+        <RDF:li resource="urn:mozilla:skin:NeurosTV:mozapps"/>
+        <RDF:li resource="urn:mozilla:skin:NeurosTV:help"/>
+      </RDF:Seq>
+    </chrome:packages>
+  </RDF:Description>
+
+  <!-- Version Information.  State that we work only with major version 1 of this package. -->
+  <RDF:Description chrome:skinVersion="1" about="urn:mozilla:skin:NeurosTV:browser"/>
+  <RDF:Description chrome:skinVersion="1" about="urn:mozilla:skin:NeurosTV:communicator"/>
+  <RDF:Description chrome:skinVersion="1" about="urn:mozilla:skin:NeurosTV:global"/>
+  <RDF:Description chrome:skinVersion="1" about="urn:mozilla:skin:NeurosTV:mozapps"/>
+  <RDF:Description chrome:skinVersion="1" about="urn:mozilla:skin:NeurosTV:help"/>
+</RDF:RDF>
