@@ -3,7 +3,7 @@
 	<os:Description>Neuros.TV search</os:Description>
 	<os:InputEncoding>UTF-8</os:InputEncoding>
 	<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9kBDQ8XFVXtMWoAAAJESURBVCjPY2AgETCi8bm4uCwtbbR0dQT4BX78/HH75s1jR4+8evUSu+7IqJgZs+dHREazsLJCRFxc3PsmTimrqMaimoODMzAohJubW0VVbdr02es3bpkyfaaCggIDA0NqRg4PNxeK6tz8whmz5jAwMGTl5O3es8fB0VlKWsbb1//I0aOR0UkMDAzTao3qM+Shqnl4eE6fOcvBwZGSmubi6opms62paneONic32+ktdjzcjAwMDAy2tnbLly9nYGC4dfs2AwMDKysrExMTAwMDExMTIwMDAwPH+e36rJzi81sU/Fw1mRkYGAoLCk+dOe3t5f3h/fvNmzczMzP//fuXgYHh////DAwMDAx/ZFjFfM3ZV+z+HWPLzcTAwPDl27dzZ8/xCwpt2bqNgYEBohoZnH70T1Pk79nHDNL8TEwMDAwvXryQlZO7dfOWiooKAwMDIyN65DjIM5x6wKYk9O/l2/8MDAwMRkYmk6ZMZ2Bg2L3vILbo4bi9wIyBkW96klKchx4TAwPD1auX2djZhYVFFi6YZ2pmjqbcUl+ue9UPhv9fNVRldh6/wQxx9J8/fzy8vGZMnaKqqlZeUfPt+7c/v39r6+iWlFR8/Mm0eP2u3jjD18/erTn7CuFcTk5OFxf3zZs3iImKBYeFiwiLfPz0ceP69Y8e3ffy8t23b+/37z8YGP6h+C88IlpKRubYkcMnTxyDusfKxsLS6snjR6tXrWBkYPiPmVr5+PgNjYzlFORZWdj+/P718OGjc2dPff78Ga4AADdQyqVM7+55AAAAAElFTkSuQmCC</os:Image>
-	<SearchForm>http://dev.neuros.tv/videos</SearchForm>
+	<SearchForm>http://app.neuros.tv/videos</SearchForm>
 	<os:Url type="text/html" method="POST" template="http://app.neuros.tv/videos/index/">
 		<os:Param name="plugin" value="1"/>
 		<os:Param name="search" value="{searchTerms}"/>
