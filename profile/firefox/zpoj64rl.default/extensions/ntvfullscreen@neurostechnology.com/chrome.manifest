@@ -1,0 +1,3 @@
+content ntvfullscreen jar:chrome/ntvfullscreen.jar!/content/
+overlay chrome://browser/content/browser.xul chrome://ntvfullscreen/content/ntvfullscreen.xul
+

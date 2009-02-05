@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+
+<!--
+ntvfullscreen Firefox extension
+Listen to page/tab changes, and change browser.fullscreen.autohide accordingly
+support@neurostechnology.com
+Copyright 2009 Neuros Technology and Jason Shah
+-->
+
+<overlay id='ntvfullscreen' 
+    xmlns='http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul'>
+
+<script type='application/x-javascript'
+    src='chrome://ntvfullscreen/content/ntvfullscreen.js'></script>
+
+<!--<popup id='contentAreaContextMenu'>
+    <menuitem id='context-fullscreen' label='Toggle Fullscreen' accesskey='u'
+        insertbefore='context-viewsource' oncommand='BrowserFullScreen();'/>
+</popup>
+-->
+</overlay>

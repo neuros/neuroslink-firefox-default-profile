@@ -2,5 +2,6 @@ gre-global	langpack-en-GB@xulrunner-1.9.ubuntu.com	rel%langpack-en-GB@xulrunner-
 gre-global	{972ce4c6-7e08-4474-a285-3208198ce6fd}	rel%{972ce4c6-7e08-4474-a285-3208198ce6fd}	1231270133	
 app-global	ubufox@ubuntu.com	rel%ubufox@ubuntu.com	1231270187	
 app-global	langpack-en-GB@firefox-3.0.ubuntu.com	rel%langpack-en-GB@firefox-3.0.ubuntu.com	1231270027	
-app-profile	{DD43485F-44CC-4452-A6C6-69356A7E33DA}	rel%{DD43485F-44CC-4452-A6C6-69356A7E33DA}	1231438665	
-app-profile	{d8a50a20-cf9e-11dd-ad8b-0800200c9a66}	rel%{d8a50a20-cf9e-11dd-ad8b-0800200c9a66}	1232332497	
+app-profile	{DD43485F-44CC-4452-A6C6-69356A7E33DA}	rel%{DD43485F-44CC-4452-A6C6-69356A7E33DA}	1233846611	
+app-profile	neurostv-theme@neurostechnology.com	rel%neurostv-theme@neurostechnology.com	1233846880	
+app-profile	ntvfullscreen@neurostechnology.com	rel%ntvfullscreen@neurostechnology.com	1233846896	

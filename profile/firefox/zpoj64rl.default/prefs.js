@@ -62,7 +62,7 @@ user_pref("extensions.autohide.noContext", false);
 user_pref("extensions.autohide.semiMode", false);
 user_pref("extensions.autohide.statFloat", false);
 user_pref("extensions.autohide.windowsTB", true);
-user_pref("extensions.enabledItems", "{DD43485F-44CC-4452-A6C6-69356A7E33DA}:1.3.1,langpack-en-GB@firefox-3.0.ubuntu.com:3.0.3,ubufox@ubuntu.com:0.6,langpack-en-GB@xulrunner-1.9.ubuntu.com:1.9.0.3,{972ce4c6-7e08-4474-a285-3208198ce6fd}:3.0.5,{d8a50a20-cf9e-11dd-ad8b-0800200c9a66}:1.0");
+user_pref("extensions.enabledItems", "{DD43485F-44CC-4452-A6C6-69356A7E33DA}:1.3.1,langpack-en-GB@firefox-3.0.ubuntu.com:3.0.3,ntvfullscreen@neurostechnology.com:1.1,ubufox@ubuntu.com:0.6,langpack-en-GB@xulrunner-1.9.ubuntu.com:1.9.0.3,{972ce4c6-7e08-4474-a285-3208198ce6fd}:3.0.5,neurostv-theme@neurostechnology.com:1.1");
 user_pref("extensions.lastAppVersion", "3.0.5");
 user_pref("extensions.update.notifyUser", false);
 user_pref("font.minimum-size.x-western", 16);

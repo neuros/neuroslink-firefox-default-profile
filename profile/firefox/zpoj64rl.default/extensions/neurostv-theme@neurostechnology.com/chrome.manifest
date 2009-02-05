@@ -1,0 +1,5 @@
+skin	browser	NeurosTV	jar:chrome/NeurosTV-theme.xpi!/browser/
+skin	communicator	NeurosTV	jar:chrome/NeurosTV-theme.xpi!/communicator/
+skin	global	NeurosTV	jar:chrome/NeurosTV-theme.xpi!/global/
+skin	mozapps	NeurosTV	jar:chrome/NeurosTV-theme.xpi!/mozapps/
+skin	help	NeurosTV	jar:chrome/NeurosTV-theme.xpi!/help/
