@@ -1,0 +1,17 @@
+#!/bin/bash
+
+case "$1" in
+	configure)
+	;;
+
+	install|upgrade)
+	;;
+
+	remove|pruge)
+		echo "Running prerm on REMOVE or PURGE"
+		if [ -x /home/neurostv/.mozilla ]; then
+			rm -rf /home/neurostv/.mozilla
+		fi
+	;;
+esac
+

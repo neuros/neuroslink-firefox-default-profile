@@ -15,8 +15,23 @@ then
   fi
 fi
 
-if [ -e /home/neurostv/.mozilla ]; then
-	echo "Found existing Mozilla, sorry being removed."
-	rm -rf /home/neurostv/.mozilla
-fi
 
+case "$1" in
+	configure)
+	;;
+
+	install)
+		echo "Running preinst on INSTALL"
+	;;
+
+	upgrade)
+		echo "Running preinst on UPGRADE"
+		if [ -e /home/neurostv/.mozilla ]; then
+			echo "Found existing Mozilla, backing up user data."
+			mkdir -p /tmp/mozilla-backups/
+			cp -a /home/neurostv/.mozilla/firefox/zpoj64rl.default/bookmarks.html /tmp/mozilla-backups/
+			cp -a /home/neurostv/.mozilla/firefox/zpoj64rl.default/sign* /tmp/mozilla-backups/
+			cp -a /home/neurostv/.mozilla/firefox/zpoj64rl.default/key3.db /tmp/mozilla-backups/
+		fi
+	;;
+esac

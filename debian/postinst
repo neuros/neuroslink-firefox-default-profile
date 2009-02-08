@@ -1,14 +1,32 @@
 #!/bin/sh
 
-if [ -e /home/neurostv/.mozilla ]; then
-	rm -rf /home/neurostv/mozilla
-else
-	mkdir -p /home/neurostv/.mozilla
-fi
+echo "THIS IS POSTINST SCRIPT RUNNING WITH $1"
 
+case "$1" in
+	configure)
+		echo "Running postinst on CONFIGURE"
+		if [ -e /home/neurostv/.mozilla ]; then
+			rm -rf /home/neurostv/.mozilla
+		fi
 
-if [ -e /home/neurostv/.mozilla ]; then
-	cp -Rpda /usr/share/neuroslink/firefox /home/neurostv/.mozilla
-	chown 1000.1000 -R /home/neurostv/.mozilla
-fi
+		mkdir -p /home/neurostv/.mozilla
+		cp -Rpda /usr/share/neuroslink/firefox /home/neurostv/.mozilla/
+
+		if [ -e /tmp/mozilla-backups ]; then
+			cp -a /tmp/mozilla-backups/signon* /home/neurostv/.mozilla/firefox/zpoj64rl.default
+			cp -a /tmp/mozilla-backups/key3.db /home/neurostv/.mozilla/firefox/zpoj64rl.default
+			cp -a /tmp/mozilla-backups/bookmarks.html /home/neurostv/.mozilla/firefox/zpoj64rl.default
+			chown neurostv:neurostv -R /home/neurostv/.mozilla
+			rm -rf /tmp/mozilla-backups
+		fi
+	;;
+
+	abort-upgrade|abort-remove|abort-deconfigure)
+	;;
+
+	*)
+		echo "postinst called with unknown argument \`$1'" >&2
+		exit 1
+	;;
+esac
 

@@ -1,3 +1,15 @@
+firefox-default-profile (1.4prerelease4) intrepid; urgency=low
+
+   * Added NeurosTV fullscreen extension
+   * Updated NeurosTV theme
+   * Removed Autohide extension
+   * Change dev to app in NeurosTV search plugin
+   * Keep user saved passwords between upgrades
+   * Fix install/upgrade/remove scripts
+   * Keep bookmarks between upgrades
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Sun, 08 Feb 2009 17:14:02 -0600
+
 firefox-default-profile (1.4) intrepid; urgency=low
 
   * Moved default profile to /usr/share/neuroslink
