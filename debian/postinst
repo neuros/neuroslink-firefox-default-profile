@@ -1,24 +1,27 @@
 #!/bin/sh
 
-echo "THIS IS POSTINST SCRIPT RUNNING WITH $1"
-
 case "$1" in
 	configure)
 		echo "Running postinst on CONFIGURE"
 		if [ -e /home/neurostv/.mozilla ]; then
+			echo "Removing user's mozilla profile"
 			rm -rf /home/neurostv/.mozilla
 		fi
-
+		echo "Creating .mozilla directory"
 		mkdir -p /home/neurostv/.mozilla
+		echo "Copy the mozilla profile"
 		cp -Rpda /usr/share/neuroslink/firefox /home/neurostv/.mozilla/
 
 		if [ -e /tmp/mozilla-backups ]; then
+			echo "Restoring user's mozilla profile settings"
 			cp -a /tmp/mozilla-backups/signon* /home/neurostv/.mozilla/firefox/zpoj64rl.default
 			cp -a /tmp/mozilla-backups/key3.db /home/neurostv/.mozilla/firefox/zpoj64rl.default
 			cp -a /tmp/mozilla-backups/bookmark* /home/neurostv/.mozilla/firefox/zpoj64rl.default
-			chown neurostv:neurostv -R /home/neurostv/.mozilla
 			rm -rf /tmp/mozilla-backups
 		fi
+		echo "Changing permissions to neurostv user"
+		chown neurostv:neurostv -R /home/neurostv/.mozilla
+
 	;;
 
 	abort-upgrade|abort-remove|abort-deconfigure)

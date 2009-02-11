@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ps ax | grep -v grep | grep firefox > /dev/null
+if ps ax | grep -v grep | grep -v dpkg | grep firefox > /dev/null
 then
     echo "Killing Firefox so can write new profile"
     killall firefox
