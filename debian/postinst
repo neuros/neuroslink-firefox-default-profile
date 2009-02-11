@@ -15,7 +15,7 @@ case "$1" in
 		if [ -e /tmp/mozilla-backups ]; then
 			cp -a /tmp/mozilla-backups/signon* /home/neurostv/.mozilla/firefox/zpoj64rl.default
 			cp -a /tmp/mozilla-backups/key3.db /home/neurostv/.mozilla/firefox/zpoj64rl.default
-			cp -a /tmp/mozilla-backups/bookmarks.html /home/neurostv/.mozilla/firefox/zpoj64rl.default
+			cp -a /tmp/mozilla-backups/bookmark* /home/neurostv/.mozilla/firefox/zpoj64rl.default
 			chown neurostv:neurostv -R /home/neurostv/.mozilla
 			rm -rf /tmp/mozilla-backups
 		fi
