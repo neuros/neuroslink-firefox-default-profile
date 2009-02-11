@@ -63,16 +63,24 @@ Totem Web Browser Plugin 2.24.3:$
 13:application/x-nsv-vp3-mp3:NullSoft video:nsv:$
 14:video/flv:Flash video:flv:$
 15:application/x-totem-plugin:Totem Multimedia plugin::$
+/usr/lib/flashplugin-nonfree/libflashplayer.so:$
+:$
+1233987140000:1:5:$
+Shockwave Flash 10.0 r15:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
 /usr/lib/xulrunner-addons/plugins/libunixprintplugin.so:$
 :$
-1229469065000:1:5:$
+1234180487000:1:5:$
 The demo print plugin for unix.:$
 Demo Print Plugin for unix/linux:$
 1
 0:application/x-print-unix-nsplugin:Demo Print Plugin for Unix/Linux:.pnt:$
 /usr/lib/xulrunner-addons/plugins/libnullplugin.so:$
 :$
-1229469065000:1:5:$
+1234180487000:1:5:$
 The default plugin handles plugin data for mimetypes and extensions that are not specified and facilitates downloading of new plugins.:$
 Default Plugin:$
 1

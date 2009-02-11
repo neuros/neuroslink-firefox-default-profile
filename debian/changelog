@@ -1,4 +1,4 @@
-firefox-default-profile (1.4prerelease6) intrepid; urgency=low
+firefox-default-profile (1.5) intrepid; urgency=low
 
    * Added NeurosTV fullscreen extension
    * Updated NeurosTV theme
@@ -8,6 +8,7 @@ firefox-default-profile (1.4prerelease6) intrepid; urgency=low
    * Fix install/upgrade/remove scripts
    * Keep bookmarks and book mark backups between upgrades
    * Make preinst, postinst, and prerm scripts standardized
+   * Update profile to Firefox 3.0.6
 
  -- Tom Bruno <tbruno@neurostechnology.com>  Sun, 08 Feb 2009 17:14:02 -0600
 
