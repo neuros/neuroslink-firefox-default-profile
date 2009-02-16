@@ -602,152 +602,144 @@ toolbar[iconsize="small"][mode="icons"] #back-forward-dropmarker[chromedir="rtl"
 }
 
 /* download manager button */
-/*
+
 #downloads-button {
-  -moz-image-region: rect(0px 144px 24px 120px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #downloads-button:not([disabled="true"]):hover {
-  -moz-image-region: rect(24px 144px 48px 120px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #downloads-button[disabled="true"] {
-  -moz-image-region: rect(48px 144px 72px 120px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #downloads-button:not([disabled="true"]):hover:active {
-  -moz-image-region: rect(96px 144px 120px 120px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
-*/
+
 /* history sidebar button */
-/*
 #history-button {
-  -moz-image-region: rect(0px 168px 24px 144px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #history-button:not([disabled="true"]):not([checked="true"]):hover {
-  -moz-image-region: rect(24px 168px 48px 144px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #history-button[disabled="true"] {
-  -moz-image-region: rect(48px 168px 72px 144px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #history-button[checked="true"] {
-  -moz-image-region: rect(72px 168px 96px 144px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #history-button:not([disabled="true"]):not([checked="true"]):hover:active {
-  -moz-image-region: rect(96px 168px 120px 144px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 */
 /* bookmark sidebar button */
-/*
 #bookmarks-button {
-  -moz-image-region: rect(0px 192px 24px 168px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #bookmarks-button:not([disabled="true"]):not([checked="true"]):hover {
-  -moz-image-region: rect(24px 192px 48px 168px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #bookmarks-button[disabled="true"] {
-  -moz-image-region: rect(48px 192px 72px 168px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #bookmarks-button[checked="true"] {
-  -moz-image-region: rect(72px 192px 96px 168px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #bookmarks-button:not([disabled="true"]):not([checked="true"]):hover:active {
-  -moz-image-region: rect(96px 192px 120px 168px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
-*/
+
 /* print button */
-/*
 #print-button {
-  -moz-image-region: rect(0px 216px 24px 192px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #print-button:not([disabled="true"]):hover {
-  -moz-image-region: rect(24px 216px 48px 192px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #print-button[disabled="true"] {
-  -moz-image-region: rect(48px 216px 72px 192px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #print-button:not([disabled="true"]):hover:active {
-  -moz-image-region: rect(96px 216px 120px 192px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
-*/
+
 /* new tab button */
-/*
 toolbar:not([iconsize="small"]) #new-tab-button > .toolbarbutton-icon {
   padding-left: 1px;
 }
 #new-tab-button {
-  -moz-image-region: rect(0px 240px 24px 216px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #new-tab-button:not([disabled="true"]):hover {
-  -moz-image-region: rect(24px 240px 48px 216px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #new-tab-button[disabled="true"] {
-  -moz-image-region: rect(48px 240px 72px 216px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #new-tab-button:not([disabled="true"]):hover:active {
-  -moz-image-region: rect(96px 240px 120px 216px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
-*/
+
 /* new window button */
-/*
 toolbar:not([iconsize="small"]) #new-window-button > .toolbarbutton-icon {
   padding-left: 1px;
 }
 #new-window-button {
-  -moz-image-region: rect(0px 264px 24px 240px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #new-window-button:not([disabled="true"]):hover {
-  -moz-image-region: rect(24px 264px 48px 240px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #new-window-button[disabled="true"] {
-  -moz-image-region: rect(48px 264px 72px 240px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #new-window-button:not([disabled="true"]):hover:active {
-  -moz-image-region: rect(96px 264px 120px 240px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
-*/
+
 /* cut button */
-/*
 #cut-button {
-  -moz-image-region: rect(0px 288px 24px 264px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #cut-button:not([disabled="true"]):hover {
-  -moz-image-region: rect(24px 288px 48px 264px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #cut-button[disabled="true"] {
-  -moz-image-region: rect(48px 288px 72px 264px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #cut-button:not([disabled="true"]):hover:active {
-  -moz-image-region: rect(96px 288px 120px 264px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
-*/
+
 /* copy button */
-/*
 #copy-button {
-  -moz-image-region: rect(0px 312px 24px 288px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #copy-button:not([disabled="true"]):hover {
-  -moz-image-region: rect(24px 312px 48px 288px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #copy-button[disabled="true"] {
-  -moz-image-region: rect(48px 312px 72px 288px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #copy-button:not([disabled="true"]):hover:active {
-  -moz-image-region: rect(96px 312px 120px 288px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
-*/
+
 /* paste button */
-/*
 #paste-button {
-  -moz-image-region: rect(0px 336px 24px 312px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #paste-button:not([disabled="true"]):hover {
-  -moz-image-region: rect(24px 336px 48px 312px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #paste-button[disabled="true"] {
-  -moz-image-region: rect(48px 336px 72px 312px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
 #paste-button:not([disabled="true"]):hover:active {
-  -moz-image-region: rect(96px 336px 120px 312px);
+  -moz-image-region: rect(200px 350px 201px 351px);
 }
-*/
+
 /* ::::: 16px primary toolbar buttons ::::: */
 
 toolbar[iconsize="small"] .toolbarbutton-1 {
