@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+    <Description about="urn:mozilla:install-manifest">
+    
+        <em:id>nosquint@urandom.ca</em:id>
+        <em:name>No Squint</em:name>
+        <em:version>1.93.2.1</em:version>
+        <em:description>Manage site-specific full page and text zoom levels</em:description>
+        <em:creator>Jason Tackaberry</em:creator>
+        <!-- optional items -->
+        <em:homepageURL>http://urandom.ca/nosquint/</em:homepageURL>
+        <em:optionsURL>chrome://nosquint/content/globalprefs.xul</em:optionsURL>
+        <em:iconURL>chrome://nosquint/content/icon-32.png</em:iconURL>
+        <em:type>2</em:type> <!-- type=extension --> 
+
+        <!-- Firefox -->
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>3.0b4pre</em:minVersion>
+                <em:maxVersion>3.0.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+    </Description>
+
+</RDF>

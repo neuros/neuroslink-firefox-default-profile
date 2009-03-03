@@ -1,0 +1,7 @@
+content nosquint jar:chrome/nosquint.jar!/content/
+overlay chrome://browser/content/browser.xul chrome://nosquint/content/overlay.xul
+
+locale nosquint en-US jar:chrome/nosquint.jar!/locale/en-US/
+
+skin nosquint classic/1.0 jar:chrome/nosquint.jar!/skin/
+style chrome://global/content/customizeToolbar.xul chrome://nosquint/skin/toolbar.css
