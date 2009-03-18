@@ -37,7 +37,7 @@ user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.search.selectedEngine", "Neuros.TV");
 user_pref("browser.sessionstore.enabled", false);
 user_pref("browser.sessionstore.resume_from_crash", false);
-user_pref("browser.startup.homepage", "http://app.neuros.tv");
+user_pref("browser.startup.homepage", "http://localhost:5000");
 user_pref("browser.startup.homepage_override.mstone", "rv:1.9.0.6");
 user_pref("browser.tabs.warnOnClose", false);
 user_pref("browser.urlbar.matchOnlyTyped", true);

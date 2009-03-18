@@ -1,3 +1,9 @@
+firefox-default-profile (1.6) intrepd; urgency=low
+
+  * Set NeurosLink LinkHome application to firefox default url
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Wed, 18 Mar 2009 14:54:52 -0500
+
 firefox-default-profile (1.5neuros1) intrepid; urgency=low
 
   * Added No-Squint firefox plugin to remember zoom levels of
